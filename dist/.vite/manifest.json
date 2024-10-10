@@ -1,0 +1,47 @@
+{
+  "../../../../../@crx/manifest": {
+    "file": "assets/crx-manifest.js-B6b3V18E.js",
+    "name": "crx-manifest.js",
+    "src": "../../../../../@crx/manifest",
+    "isEntry": true
+  },
+  "_App-!~{004}~.js": {
+    "file": "assets/App-sA0Nvt8F.css",
+    "src": "_App-!~{004}~.js"
+  },
+  "_App-ByudrTpx.js": {
+    "file": "assets/App-ByudrTpx.js",
+    "name": "App",
+    "css": [
+      "assets/App-sA0Nvt8F.css"
+    ]
+  },
+  "content.jsx-loader.js": {
+    "file": "assets/content.jsx-loader--0Bep7mC.js",
+    "src": "content.jsx-loader.js"
+  },
+  "index.html": {
+    "file": "assets/index.html-CXqXKD0b.js",
+    "name": "index.html",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_App-ByudrTpx.js"
+    ]
+  },
+  "src/scripts/background.js": {
+    "file": "assets/background.js-BjNbGz1y.js",
+    "name": "background.js",
+    "src": "src/scripts/background.js",
+    "isEntry": true
+  },
+  "src/scripts/content.jsx": {
+    "file": "assets/content.jsx-g-fsYaeq.js",
+    "name": "content.jsx",
+    "src": "src/scripts/content.jsx",
+    "isEntry": true,
+    "imports": [
+      "_App-ByudrTpx.js"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#crx-root {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100px;
+  }
+  
+  #crx-root button {
+    background-color: rgb(239, 239, 239);
+    border-color: rgb(118, 118, 118);
+    border-image: initial;
+    border-style: outset;
+    border-width: 2px;
+    margin: 0;
+    padding: 1px 6px;
+  }
+
+@layer components {
+
+  [data-theme="corporate"] .toolTipBtn {
+    @apply text-neutral-700;
+  }
+
+  [data-theme="business"] .toolTipBtn {
+    @apply text-neutral-100;
+  }
+
+  [data-theme="corporate"] .action-button-primary {
+    @apply btn-primary text-white bg-[#0A66C2] hover:bg-[rgb(10,82,174)];
+  }
+  
+  [data-theme="business"] .action-button-primary {
+    @apply text-neutral-100 bg-[#0A66C2] hover:bg-[rgb(10,82,174)];
+  }
+
+  [data-theme="corporate"] .action-button-secondary {
+    @apply text-neutral-700 shadow-none;
+  }
+
+
+  [data-theme="business"] .action-button-secondary {
+    @apply text-neutral-100 shadow-none;
+  }
+}
